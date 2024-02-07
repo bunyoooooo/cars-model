@@ -1,0 +1,100 @@
+@media (max-width:1000px) {
+    .cards {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 8px;
+        display: flex;
+        margin-top: 175px;
+    }
+
+    .card1 {
+        background: var(--primary-orange);
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .card2 {
+        background: var(--primary-blue);
+
+    }
+
+    .card3 {
+        border-top-right-radius: 0px;
+        background: var(--dark-blue);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .card {
+        width: 307px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        padding: 48px;
+
+    }
+
+    .card_title {
+        margin-bottom: 25px;
+        color: var(--primary-title-color);
+        font-family: "Big Shoulders Display";
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .card_text {
+        margin-bottom: 82px;
+        color: var(--white);
+        font-family: "Lexend Deca";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        width: 210px;
+        opacity: 0.75;
+    }
+
+    .card-btn {
+        width: 146px;
+        height: 48px;
+        border-radius: 25px;
+        background: var(--primary-title-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .card-btn span {
+        color: var(--primary-orange);
+        font-family: "Lexend Deca";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .card-btn1 span {
+        color: var(--primary-orange);
+    }
+
+    .card-btn2 span {
+        color: var(--primary-blue);
+    }
+
+    .card-btn3 span {
+        color: var(--dark-blue);
+    }
+
+    .card-btn:hover {
+        background: none;
+        border-radius: 25px;
+        border: 2px solid #FFF;
+    }
+
+    .card-btn:hover span {
+        color: var(--white);
+    }
+}
